@@ -9,7 +9,7 @@ const authRouter = Router()
  * @description Register a new user
  * @access Public
  */
-
+// register user controller
 authRouter.post("/register",authController.registerUserController)
 
 
